@@ -9,8 +9,9 @@
 <body>
 
     <h2 id="clock">00:00:00</h2>
-
-    <form id="login-form" class="hidden">
+    
+    <div id="input-area">
+        <form id="login-form" class="hidden">
         <input 
             required 
             maxlength="15" 
@@ -18,17 +19,17 @@
             placeholder="What is your name?" 
         />
         <input type="submit" value="LogIn" />
-    </form>
+        </form>
 
-    <h1 id="greeting" class="hidden"></h1>
+        <h1 id="greeting" class="hidden"></h1>
 
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press" required/>
-    </form>
-    <ul id="todo-list"></ul>
+        <form id="todo-form" class="hidden">
+            <input type="text" placeholder="Write a To Do and Press" required/>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
 
     <div id="quote">
-        <span></span>
         <span></span>
         <span></span>
     </div>
